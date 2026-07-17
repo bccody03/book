@@ -106,7 +106,7 @@ Many people don't want to give up on someone they think they love until the fina
 
 ## Chapter 5: The Blueprint, Four Stages, One Destination
 
-At some point in your dating life, you've probably felt completely lost on where you actually stand with someone. That confusion has a map. It has four stages, and understanding them might be the most clarifying thing you do for your love life. Matthew Hussey is the one who taught me about these four stages that I plan on explaining in detail.
+At some point in your dating life, you've probably felt completely lost on where you actually stand with someone. That confusion has a map. It has four stages, and understanding them might be the most clarifying thing you do for your love life. Matthew Hussey taught me these four stages.
 
 The first stage is a very simple stage. Admiration. Admiration is the first time you see someone, and you think they are pretty, funny, beautiful, or whatever you may think of the person. Maybe it's from seeing someone across the bar, and you want to go over and talk to them. It could also be on dating apps where you swipe left instead of right. Not much to talk about in the admiration phase due to it being pretty simple. This stage is the easiest to get to and pass through because everyone hits it with many people. I could say you probably hit this stage at least once a day, which leads me to my next stage.
 
