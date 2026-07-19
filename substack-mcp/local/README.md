@@ -1,7 +1,10 @@
 # Local daily feedback (Windows Task Scheduler)
 
-Runs the same "honest editor" report as the cloud Routine, but on your own
-PC, writing a markdown file to `Documents\substack-feedback\YYYY-MM-DD.md`.
+Runs the "honest editor" report on your own PC, writing a markdown file to
+`D:\substack-feedback\YYYY-MM-DD.md` — one file per day, so other Claude
+sessions (e.g. a strategy session) can read the whole history from disk.
+Change the `$ReportDir` variable at the top of `daily-feedback.ps1` if your
+strategy session reads a different folder.
 
 ## Prerequisites
 

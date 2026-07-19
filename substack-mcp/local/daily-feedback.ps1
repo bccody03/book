@@ -5,7 +5,8 @@
 
 $ErrorActionPreference = 'Stop'
 
-$ReportDir = Join-Path $env:USERPROFILE 'Documents\substack-feedback'
+# Where reports land — set this to the folder your strategy session reads.
+$ReportDir = 'D:\substack-feedback'
 New-Item -ItemType Directory -Force -Path $ReportDir | Out-Null
 $OutFile = Join-Path $ReportDir ((Get-Date -Format 'yyyy-MM-dd') + '.md')
 
