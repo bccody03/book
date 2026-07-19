@@ -1,10 +1,10 @@
 # Local daily feedback (Windows Task Scheduler)
 
 Runs the "honest editor" report on your own PC, writing a markdown file to
-`D:\substack-feedback\YYYY-MM-DD.md` — one file per day, so other Claude
-sessions (e.g. a strategy session) can read the whole history from disk.
-Change the `$ReportDir` variable at the top of `daily-feedback.ps1` if your
-strategy session reads a different folder.
+`D:\Claude\SubStack\Substack\SubStack Report\YYYY-MM-DD.md` — one file per
+day, so other Claude sessions (e.g. a strategy session) can read the whole
+history from disk. Change the `$ReportDir` variable at the top of
+`daily-feedback.ps1` if your strategy session reads a different folder.
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ cd C:\Users\blake\book\substack-mcp\local
 
 ```powershell
 Start-ScheduledTask -TaskName 'Substack Daily Feedback'
-# then check Documents\substack-feedback\ for today's file
+# then check D:\Claude\SubStack\Substack\SubStack Report\ for today's file
 ```
 
 ## Notes

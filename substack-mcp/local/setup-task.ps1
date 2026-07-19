@@ -21,5 +21,5 @@ Register-ScheduledTask -TaskName 'Substack Daily Feedback' `
     -Action $Action -Trigger $Trigger -Settings $Settings -Force | Out-Null
 
 Write-Host "Scheduled task 'Substack Daily Feedback' registered for 7:00 AM daily."
-Write-Host "Reports will land in D:\substack-feedback\"
+Write-Host "Reports will land in D:\Claude\SubStack\Substack\SubStack Report\"
 Write-Host "Test it now with: Start-ScheduledTask -TaskName 'Substack Daily Feedback'"

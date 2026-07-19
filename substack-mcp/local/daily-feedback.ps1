@@ -1,12 +1,12 @@
 # Daily Substack feedback — local version.
 # Runs Claude Code headless with the substack MCP server and writes the
-# report to Documents\substack-feedback\YYYY-MM-DD.md.
+# report to D:\Claude\SubStack\Substack\SubStack Report\YYYY-MM-DD.md.
 # Scheduled by setup-task.ps1; can also be run by hand any time.
 
 $ErrorActionPreference = 'Stop'
 
 # Where reports land — set this to the folder your strategy session reads.
-$ReportDir = 'D:\substack-feedback'
+$ReportDir = 'D:\Claude\SubStack\Substack\SubStack Report'
 New-Item -ItemType Directory -Force -Path $ReportDir | Out-Null
 $OutFile = Join-Path $ReportDir ((Get-Date -Format 'yyyy-MM-dd') + '.md')
 
