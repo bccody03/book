@@ -49,6 +49,8 @@ refresh it occasionally.
 
 ## Registering with Claude Code
 
+macOS/Linux:
+
 ```bash
 claude mcp add substack \
   --env SUBSTACK_HOSTNAME=example.substack.com \
@@ -57,7 +59,18 @@ claude mcp add substack \
   -- node /path/to/substack-mcp/dist/index.js
 ```
 
-Or in a `.mcp.json` / Claude Desktop config:
+Windows (PowerShell — note the backtick line continuations and Windows path):
+
+```powershell
+claude mcp add substack `
+  --env SUBSTACK_HOSTNAME=example.substack.com `
+  --env SUBSTACK_COOKIE="substack.sid=..." `
+  --env SUBSTACK_USER_ID=12345678 `
+  -- node C:\path\to\substack-mcp\dist\index.js
+```
+
+Or in a `.mcp.json` / Claude Desktop config (on Windows, use double
+backslashes in the path, e.g. `"C:\\path\\to\\substack-mcp\\dist\\index.js"`):
 
 ```json
 {
